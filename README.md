@@ -1,4 +1,4 @@
-# ORFEVRE
+# SEVE
 <img src="logo.webp" alt="Package Logo" width="200">
 
 **SEVE** (Simulated Electric Vehicle Energy) is a specialized version of [ORFEVRE](https://github.com/yvenn-amara/ORFEVRE) for generating daily electric vehicle energy demand profiles. It combines mixture models and time series analysis trained on real-world data from the [ev-open-data](https://github.com/yvenn-amara/ev-load-open-data) repository. Developed and maintained by Yvenn Amara-Ouali.
