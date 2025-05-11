@@ -14,7 +14,7 @@
    Run the fitting script:
    ```bash
    bash fit.sh
-  The models are saved in [models](./models))
+  The models are saved in [models](./models)
 3. **Simulate Data**
    Simulate daily EV energy following the last training point. Can be extended to different EV adoption scenarios using the arguments m_factor and a_factor in the configuration file.
 
@@ -22,6 +22,7 @@
 
 Let's take a look at an example:
 
+`Config_sap.yaml`
 ```config_sap.yaml
 # Scenario Generation parameters
 m_factor:        10    # multiplicative factor to produce scenarios
@@ -31,6 +32,7 @@ n_sim_sarima:    10    # number of SARIMA simulations
 n_sim_gmm:       10    # number of GMM simulations
 ```
 
+`simulate.sh`
 ```simulate.sh
 #!/bin/bash
 Rscript R/simulate.R 'config_sap'
