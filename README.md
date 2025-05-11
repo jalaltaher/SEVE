@@ -22,7 +22,7 @@
 
 Let's take a look at an example:
 
-`Config_sap.yaml`
+`config_sap.yaml`
 ```config_sap.yaml
 # Scenario Generation parameters
 m_factor:        10    # multiplicative factor to produce scenarios
