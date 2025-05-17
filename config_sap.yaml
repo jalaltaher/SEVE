@@ -7,12 +7,12 @@ tz: 'Europe/Paris' # timezone associated with the fitted data ('US/Pacific' for 
 # Training models
 train_start: '2019-01-01' # training starts at this date
 train_end: '2019-12-31' # training ends at this date
-reg: true # Regress on weekends/weekdays
+reg: True # Regress on weekends/weekdays
 freq: 7 # Time series natural seasonality
 
 # Scenario Generation
-m_factor: 2 # multiplicative factor to produce scenarios
-a_factor: 1000 # additive factor to produce scenarios
+m_factor: 23 # multiplicative factor to produce scenarios
+a_factor: 0 # additive factor to produce scenarios
 horizon: 365 # number of days to simulate
-n_sim_sarima: 10 # number of sarima simulations
-n_sim_gmm: 10 # number of mixture model simulations
+n_sim_sarima: 1 # number of sarima simulations
+n_sim_gmm: 1 # number of mixture model simulations

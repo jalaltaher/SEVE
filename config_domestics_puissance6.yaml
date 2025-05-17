@@ -1,0 +1,18 @@
+# config.yaml
+
+# General Information
+name: "domestics_puissance6" # dataset or model name ('palo_alto', 'sap' or 'domestics')
+tz: 'Europe/London' # timezone associated with the fitted data ('US/Pacific' for palo alto, "Europe/London" for domestics and "Europe/Paris" for SAP
+
+# Training models
+train_start: '2017-01-01' # training starts at this date
+train_end: '2017-12-31' # training ends at this date
+reg: False # Regress on weekends/weekdays
+freq: 5 # Time series natural seasonality
+
+# Scenario Generation
+m_factor: 1 # multiplicative factor to produce scenarios
+a_factor: 0 # additive factor to produce scenarios
+horizon: 365 # number of days to simulate
+n_sim_sarima: 1 # number of sarima simulations
+n_sim_gmm: 1 # number of mixture model simulations

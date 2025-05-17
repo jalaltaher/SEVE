@@ -11,11 +11,11 @@ reg: true # Regress on weekends/weekdays
 freq: 7 # Time series natural seasonality
 
 # Scenario Generation
-m_factor: 10 # multiplicative factor to produce scenarios
-a_factor: 100 # additive factor to produce scenarios
-horizon: 365 # number of days to simulate
-n_sim_sarima: 10 # number of sarima simulations
-n_sim_gmm: 10 # number of mixture model simulations
+m_factor: 1 # multiplicative factor to produce scenarios
+a_factor: 0 # additive factor to produce scenarios
+horizon: 10 # number of days to simulate
+n_sim_sarima: 1 # number of sarima simulations
+n_sim_gmm: 1 # number of mixture model simulations
 
 
 
